@@ -3,17 +3,21 @@ using namespace std;
 
 int main() {
 	// your code goes here
-	char c = 'z';
-	if (c == 'a' , c == 'e' , c == 'i' , c == 'o',  c == 'u'){
-		cout<<c<< "is a vowel"<<endl;
-		}
-		else if (c == 'b' , c == 'c' , c =='d' , c == 'f', c == 'g' , c == 'h' , c== 'j' , c == 'k' , c =='l' ,c == 'm' , c == 'n' , c == 'p' , c == 'q' , c == 'r' , c == 's' , c == 't' ,c == 'u' , c == 'v' , c == 'w' , c == 'x' ,c == 'y', c == 'z')
-		{
-			cout<<c<< "is a consonant"<<endl;
-		}
-		else 
-		{
-			cout<<c<<"invalid";
-		}
-	return 0;
-}
+	char c;
+	cin>>c;
+	if((c>=65 && c<=90) || (c>=97 && c<=122)){
+	    if(c==65 || c==69 || c==73 || c==79 || c==85 || c==97 || c==101 || c==105 || c==111 || c==117)
+	    {
+	        cout<<"Vowel";
+	    }
+	    else
+	    {
+	        cout<<"Consonant";
+	    }
+	}
+	else
+	{
+	    cout<<"invalid";
+	}
+	  return 0;  
+	}
