@@ -2,13 +2,14 @@
     using namespace std;
     int main()
     {
-       int a = 9;
+       int a;
+        cin>>a;
        if (a%2==0){
-           cout<<"number is even";
+           cout<<"Even";
        }
        else
        {
-           cout<<"number is odd";
+           cout<<"Odd";
        }
         
         return 0;
