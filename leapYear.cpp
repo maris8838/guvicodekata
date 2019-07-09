@@ -2,13 +2,14 @@
     using namespace std;
     int main()
     {
-       int a = 2048;
+       int a;
+       cin>>a;
        if (a%4==0){
-           cout<<"it is an leapYear";
+           cout<<"yes";
        }
        else
        {
-           cout<<"non leapYear";
+           cout<<"no";
        }
         
         return 0;
