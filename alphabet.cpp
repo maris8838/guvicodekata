@@ -9,6 +9,7 @@ int main() {
 	{
 		cout<<"Alphabet"<<endl;
 	}
+	
 	else
 	{
 		cout<<"No"<<endl;
