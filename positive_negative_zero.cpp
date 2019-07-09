@@ -6,15 +6,15 @@ int main()
     
     if ( number > 0)
     {
-        cout << "You entered a positive integer: " << number << endl;
+        cout << "positive" << number << endl;
     }
     else if (number < 0)
     {
-        cout<<"You entered a negative integer: " << number << endl;
+        cout<<"negative" << number << endl;
     }
     else
     {
-        cout << "You entered 0." << endl;
+        cout << "zero" << endl;
     }
    
     return 0;
