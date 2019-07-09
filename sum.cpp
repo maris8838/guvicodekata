@@ -1,11 +1,11 @@
-  #include<iostream>
+#include<iostream>
 #include<conio.h>
 using namespace std;
 int main()
 { 
 int n, i, sum = 0;
 cin>>n;
-for(i=0; i<=n; i++)
+for(i=0;i<=n;i++)
 {
     sum=sum+i;
 }
